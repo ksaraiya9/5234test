@@ -28,6 +28,57 @@
   color: #61dafb;
 }
 
+.counter-section {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.counter-section h2 {
+  margin-bottom: 1rem;
+  color: #61dafb;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.counter-btn {
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 100px;
+}
+
+.counter-btn:hover {
+  background-color: #21a0c4;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.counter-btn:active {
+  transform: translateY(0);
+}
+
+.counter-btn.reset {
+  background-color: #ff6b6b;
+}
+
+.counter-btn.reset:hover {
+  background-color: #ff5252;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
